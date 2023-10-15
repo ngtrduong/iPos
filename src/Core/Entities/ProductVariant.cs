@@ -1,7 +1,6 @@
 ﻿namespace Core.Entities;
 public class ProductVariant : BaseAuditableEntity
 {
-    public string? Name { get; set; }
     public string? SKU { get; set; }
     public decimal Prince { get; set; }
     public int ProductId { get; set; }
